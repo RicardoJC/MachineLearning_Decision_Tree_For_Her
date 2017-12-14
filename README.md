@@ -1,4 +1,4 @@
--------------- Machine Learnign y los micromachismos en Twitter -------------------
+-------------- Machine Learning y los micromachismos en Twitter -------------------
 
 Este trabajo presenta aprendizaje de máquina para poder identificar micromachismos y su categoría
 según el trabajo de investigación de Ferrer Pérez, Victoria A.; Bosch Fiol, Esperanza; Navarro Guzmán, Capilla; Ramis Palmer, M. Carmen; García Buades, M. Esther
