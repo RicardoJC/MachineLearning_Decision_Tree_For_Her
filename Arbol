@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<Inferioridad &le; 0.005<br/>gini = 0.391<br/>samples = 95<br/>value = [1, 17, 72, 5]<br/>class = Coercitiva>, fillcolor="#399de5b4"] ;
+1 [label=<Exclusion &le; 0.063<br/>gini = 0.451<br/>samples = 24<br/>value = [1, 17, 1, 5]<br/>class = Encubierta>, fillcolor="#47e539a1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Servicio &le; 0.193<br/>gini = 0.194<br/>samples = 19<br/>value = [1, 17, 1, 0]<br/>class = Encubierta>, fillcolor="#47e539e3"] ;
+1 -> 2 ;
+3 [label=<Represion &le; 0.084<br/>gini = 0.105<br/>samples = 18<br/>value = [0, 17, 1, 0]<br/>class = Encubierta>, fillcolor="#47e539f0"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 17<br/>value = [0, 17, 0, 0]<br/>class = Encubierta>, fillcolor="#47e539ff"] ;
+3 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 1, 0]<br/>class = Coercitiva>, fillcolor="#399de5ff"] ;
+3 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0, 0, 0]<br/>class = Utilitaria>, fillcolor="#e58139ff"] ;
+2 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 5<br/>value = [0, 0, 0, 5]<br/>class = Crisis>, fillcolor="#d739e5ff"] ;
+1 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 71<br/>value = [0, 0, 71, 0]<br/>class = Coercitiva>, fillcolor="#399de5ff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
